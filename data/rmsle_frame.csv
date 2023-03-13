@@ -1,0 +1,7 @@
+Modelling Algo,RMSE
+RandomForestRegressor,38.094947621271295
+AdaBoostRegressor,102.38913376393654
+BaggingRegressor,39.60211548841125
+KNeighborsRegressor,61.07083954328714
+DecisionTreeRegressor,54.74198838847009
+SVR,117.39592845838783
