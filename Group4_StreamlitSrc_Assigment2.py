@@ -636,7 +636,7 @@ reg.fit(x_train, y_train, eval_set=[(x_train, y_train), (x_test, y_test)], verbo
     )
     st.dataframe(x_test)
 
-    loaded_model = pickle.load(open(f"{path}/models/rf_model.sav", "rb"))
+    loaded_model = pickle.load(open(f"{path}/models/model.sav", "rb"))
 
     result = loaded_model.predict(x_test)
 
