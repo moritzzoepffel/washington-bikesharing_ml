@@ -9,7 +9,6 @@ import pickle
 import plotly.figure_factory as ff
 import os
 import sklearn
-import xgboost as xgb
 
 
 st.title("Bike Sharing Service in Washington, D.C")
